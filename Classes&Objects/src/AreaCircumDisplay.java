@@ -1,6 +1,6 @@
 //Author:Shivani Vashishta
 //Version:1.0.0
-//Purpose:
+//Purpose: Write a program to find the area and circumference of the circle .
 
 import java.util.*;
  class Circle
