@@ -1,3 +1,7 @@
+//Author: Shivani Vashishta
+//Version: 1.0.0
+//Purpose: 3.Write a Java program that reads in two floating-point numbers and tests 
+//           whether they are the same up to three decimal places.
 import java.util.Scanner;
 public class fpnum{
 

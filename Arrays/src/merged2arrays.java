@@ -1,3 +1,7 @@
+//Author:Shivani Vashishta
+//Version:1.0.0
+//Purpose:5.  Write a program to merge two sorted arrays
+
 import java.util.Scanner;
 
 public class merged2arrays
@@ -10,25 +14,24 @@ public class merged2arrays
        int mergedarray[] = new int[100];
        Scanner scan = new Scanner(System.in);
 	   
-       System.out.print("Enter Array 1 Size : ");
+       System.out.print("Enter Size of Array 1 : ");
        size1 = scan.nextInt();
 	   
-       System.out.print("Enter Array 1 Elements : ");
+       System.out.print("Enter Elements : ");
        for(i=0; i<size1; i++)
        {
            a1[i] = scan.nextInt();
        }
 	   
-       System.out.print("Enter Array 2 Size : ");
+       System.out.print("Enter Size of Arr 2: ");
        size2 = scan.nextInt();
 	   
-       System.out.print("Enter Array 2 Elements : ");
+       System.out.print("Enter Elements : ");
        for(i=0; i<size2; i++)
        {
            a2[i] = scan.nextInt();
        }
 	   
-       System.out.print("Merging the Arrays...\n");
        for(i=0; i<size1; i++)
        {
            mergedarray[i] = a1[i];
@@ -41,7 +44,7 @@ public class merged2arrays
            mergedarray[k] = a2[i];
        }
 	   
-       System.out.print("Now the New Array after Merging is :\n");
+       System.out.print("The Merged Array is  :\n");
        for(i=0; i<size; i++)
        {
            System.out.print(mergedarray[i] + "  ");

@@ -1,3 +1,7 @@
+//Author:Shivani Vashishta
+//Version:1.0.0
+//Purpose:Write an application that inputs five numbers, each between 10 and 100, inclusive.
+// As each number is read, display it only if it’s not a duplicate of a number already read.
 import java.util.Scanner;
 class Repeatedno 
 {

@@ -1,3 +1,6 @@
+//Author:Shivani Vashishta
+//Version:1.0.0
+//Purpose: Write a Java program to solve quadratic equations.
 import java.util.Scanner;
 public class quadraticequations{
   

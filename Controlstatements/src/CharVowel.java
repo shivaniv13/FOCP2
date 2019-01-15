@@ -1,4 +1,9 @@
-;import java.util.*;
+//Author:Shivani Vashishta
+//Version:1.0.0
+//Pupose:5.	Write a Java program that asks the user to provide a single character from 	the alphabet.
+//Print Vowel or Consonant , depending on the user input. 
+
+import java.util.*;
 class CharVowel
 {
 	public static void main(String[ ] arg)

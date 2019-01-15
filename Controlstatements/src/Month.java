@@ -1,3 +1,7 @@
+//Author:Shivani Vaashishta
+//Version:1.0.0
+//Purpose: Write a Java program that takes a number from the user between 1 and 12 
+//              and displays the name of the corresponding month .
 import java.util.Scanner;
 public class Month {
 

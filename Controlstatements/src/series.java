@@ -1,4 +1,6 @@
-// Java program to find sum of series 
+//Author:Shivani Vashishta
+//Version:1.0.0
+// Purpose: Java program to find sum of series 
 // 1 + 1/x + x^2/2 + x^3/3 + ....+ x^n/n
 
 import java.util.*; 

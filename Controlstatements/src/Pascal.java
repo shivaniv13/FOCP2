@@ -1,3 +1,6 @@
+//Author: Shivani Vashishta
+//Version: 1.0.0
+//Purpose: Write a Java program to display Pascal's triangle.  
 import java.util.*;
 class Pascal
 {
