@@ -12,12 +12,11 @@ class Rhombus
         int count = 1;
         int count2 = 1;
         char c = 'A';
-
+           System.out.println("The Rhombus Structure is:");
         for (int i = 1; i < (n * 2); i++) 
         {
-            for (int spc = n - count2; spc > 0; spc--)   
-            //print space
-            {
+            for (int space = n - count2; space> 0; space--)   
+                        {
                 System.out.print(" ");
             }
             if (i < n) 
@@ -30,7 +29,7 @@ class Rhombus
             }
             for (int j = 0; j < count; j++) 
             {
-                System.out.print(c);//print Character
+                System.out.print(c);
                 if (j < count / 2) 
                 {
                     c++;

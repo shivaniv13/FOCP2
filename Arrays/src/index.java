@@ -2,7 +2,8 @@
 //Version:1.0.0
 //Purpose: Write a Java program to find the index of an array element in an array of size 10.
 import java.util.*; 
-public class index { 
+public class index
+ { 
   
      public static int search(int a[], int t) 
     { 
