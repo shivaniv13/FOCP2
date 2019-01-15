@@ -4,14 +4,14 @@
 import java.util.*;
 public class Circle
 {   int r;
-       float findArea()
+       float findAr()
         {       
              float a ; 
             a = Math.PI*r*r;
              return a;
 
         }
-       void displayArea(float a)
+       void displayAr(float a)
         {     System.out.println("Area is " + a);
 
         }
@@ -23,7 +23,7 @@ public class CircleDemo
   	{
       Circle c = new Circle();
         c.r=2;
-        c.displayArea(c.findArea());
+        c.displayAr(c.findAr());
     }
 
 }

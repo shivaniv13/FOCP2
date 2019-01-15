@@ -3,27 +3,25 @@
 //Purpose: 3.Write a Java program that reads in two floating-point numbers and tests 
 //           whether they are the same up to three decimal places.
 import java.util.Scanner;
-public class fpnum{
-
-    
+public class fpnum
+{    
   public static void main(String[] args)
     {
-        Scanner in = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
+        System.out.print("Input floating-point number 1: ");
+        double fpnum1 = input.nextDouble();
+        System.out.print("Input floating-point number 2: ");
+        double fpnum2= input.nextDouble();
 
-        System.out.print("Input floating-point number: ");
-        double x = in.nextDouble();
-        System.out.print("Input floating-point another number: ");
-        double y = in.nextDouble();
+        fpnum1= Math.round(fpnum1* 1000);
+        fpnum1= fpnum1 / 1000;
 
-        x = Math.round(x * 1000);
-        x = x / 1000;
+        fpnum2= Math.round(fpnum2 * 1000);
+        fpnum2 = fpnum2/ 1000;
 
-        y = Math.round(y * 1000);
-        y = y / 1000;
-
-        if (x == y)
+        if (fpnum1 == fpnum2)
         {
-            System.out.println("They are the same up to three decimal places");
+            System.out.println("They are same up to three decimal places");
         }
         else
         {

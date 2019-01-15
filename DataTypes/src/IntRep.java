@@ -9,6 +9,6 @@ public class IntRep
 	       System.out.println("Enter a character : ");
 	        char ch=input.next( ).charAt(0);
 	        int ascii = ch;
-	         System.out.println("The ASCII value of ch is :" +ascii);
+	         System.out.println("The ASCII value of ch sis :" +ascii);
 	}
 }
