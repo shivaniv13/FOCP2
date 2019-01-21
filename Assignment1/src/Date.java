@@ -5,7 +5,14 @@ class Date
     int startDate;
     int endDate;
     int dateofBirth;
-    public Date()
+     Date()
+    {
+    	this.startDate=1/1/2017;
+    	this.endDate=1/1/2018;
+    	this.dateofBirth=13/05/2000;
+    }
+
+    Date( int startDate,int endDate ,int dateofBirth)
     {
     	this.startDate=startDate;
     	this.endDate=endDate;

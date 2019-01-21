@@ -4,7 +4,7 @@ class Project
 {
   String name;
   String role;
-  String [] responsibilities;
+  String responsibilities;
 
  Project(String name, String role )
     {
@@ -27,6 +27,14 @@ class Project
    public String getRole()
    {
    	return role;
+   }
+     public void setResp(String responsibilities) 
+   {   
+      this.responsibilities=responsibilities;
+   }
+   public String get()
+   {
+   	return responsibilities;
    }
     public void displayProject()
      {

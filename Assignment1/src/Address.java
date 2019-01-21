@@ -7,8 +7,7 @@ class Address
    String city;
    String state;
    int pinCode;
-
-   Address()
+   Address(String line1,String line2,String city,String state,int pinCode)
     {
         this.line1= line1;
         this.line2=line2;
