@@ -13,16 +13,18 @@ class Student
     String contactNo;
 
       
-    Student(String firstName,String lastName,String eMail,String contactNo,String line1,String line2,String city,String state,int pinCode,String qualName, String  university , String institute,  float cgpa,String name, String role, int startDate,int endDate ,int dateofBirth)
+    Student(String firstName,String lastName,String eMail,String contactNo,String line1,String line2,String city,
+      String state,int pinCode,String qualName, String  university , String institute,  float cgpa,String name, String role, 
+      int startDate,int endDate ,int dateofBirth)
     {
         this.firstName= firstName;
         this.lastName=lastName;
         this.eMail=eMail;
         this.contactNo=contactNo;
-        this.addr = new Address(line1,line2,city,state,pinCode);
+        this.addr = new Address();
         this.qual=new Qualification(qualName, university , institute, cgpa);
         this.pr=new Project(name, role);
-        this.dob= new Date( startDate,endDate , dateofBirth);
+        this.dob= new Date();
         
    }
    public void setFN(String firstName) 

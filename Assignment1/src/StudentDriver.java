@@ -4,8 +4,8 @@ class StudentDriver
 {
 	public static void main(String[] args)
 	{     int n, i;
-               String firstName, lastName,eMail,contactNo,line1,line2, city, state,qualName , university , institute,name, role,skills ;
-               int pinCode, startDate, endDate , dateofBirth ; 
+                String firstName, lastName,eMail,contactNo,line1,line2, city, state,qualName , university , institute,name, role,skills ;
+                int pinCode, startDate, endDate , dateofBirth ; 
                 float cgpa;
 
             Scanner input = new Scanner(System.in);
@@ -16,10 +16,10 @@ class StudentDriver
               i = input.nextInt();
        
              System.out.println("The personal details of the student " + i + " is:");
-             Student s = new Student(firstName,lastName, eMail,contactNo,line1, line2, city, state, pinCode, qualName,  university , institute, cgpa,name, role, startDate, endDate , dateofBirth);
+             Student s = new Student(firstName,lastName, eMail,contactNo,line1, line2, city, state, pinCode, qualName,university,institute,cgpa,name,role, startDate, endDate , dateofBirth);
 
              System.out.println("The first name is:");
-         	 firstName = input.next();
+         	   firstName = input.next();
          	 s.setFN(firstName);
          	 System.out.println("The last name is:"); 	
          	 lastName = input.next();
@@ -45,7 +45,7 @@ class StudentDriver
               System.out.println("The qualification details of the student are ");
               Qualification qual = new Qualification(qualName,institute,university,cgpa); 
               System.out.println("The qualification name of the student  is:");
-                 qualName = input.next();
+                qualName = input.next();
          	     qual.setQN(qualName);
          	     System.out.println("The Institute of the student  is:");
          	     institute = input.next();
