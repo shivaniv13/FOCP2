@@ -1,6 +1,6 @@
 package Exercises;
 
-import Java;
+import Java.;
 class PackageDemoDriver
 {
 	public void display()
