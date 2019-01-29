@@ -1,3 +1,6 @@
+//Author:Shivani Vashishta
+//Version:1.0.0
+//Purpose:write a program that contains base class vehicle and is inherited by derived class bike ,car. 
 import java.util.*;
 class vehicle
 {

@@ -7,8 +7,10 @@
   { 
             
            public  Exception1 ( String s )     
-                 {
-           	 System.out.println("Exception()");
+            {          super(s);
+            	 System.out.println(s);
+
+           	       System.out.println("Exception()");
            }
 
   }
